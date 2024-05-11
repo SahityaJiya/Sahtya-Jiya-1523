@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+        <header>
+        <title> chimtim@1523
+        </title>
+        </header>
+</head>
+
+<body style ="background-color: rgb(18, 175, 123);">
+<footer>
+        <h1>My Website</h1>
+          <table border ="5">
+        <tr>
+              <a href="#">
+                <td>Home</td>
+                <td>About</td>
+                <td>Contact</td> </a>
+                
+        </tr>
+        </table>
+
+        <button onclick="addCSS()" id = "button">Welcome to My Website </button>
+        <h5>This is a simple Website using Deprecated HTML Elements</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, corporis debitis distinctio nisi esse nesciunt possimus? Doloribus, similique iure accusamus et obcaecati neque eos debitis error beatae, dolore ducimus voluptate!</p>
+        <h5>Copyright © 2024</h5>
+</style>
+</footer>
+<script>
+        let counter = 0;
+        function addCSS(){
+            counter ++;
+            if(counter%2!=0)
+                document.getElementById("head").innerHTML='        <title>chimtim@1523</title>\n <link rel="stylesheet" href="styles.css">'
+            else
+                document.getElementById("head").innerHTML='<title>chimtim@1523</title>'
+
+        }
+    </script>
+</body>
+</html>
